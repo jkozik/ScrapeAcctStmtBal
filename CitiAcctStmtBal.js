@@ -12,5 +12,6 @@ var createJEsJson = `[
 {"line":"${MMDD},-140,${statementBalanceAmount};304-,StmtBal","mmdd":"${MMDD}","acctamt":[{"acct":"140","amt":"${statementBalanceAmount}"}],"cract":"304","desc":"StmtBal"},
 {"line":"${MMDD},-140,-${statementBalanceAmount};304-,StmtBal * -1","mmdd":"${MMDD}","acctamt":[{"acct":"140","amt":"-${statementBalanceAmount}"}],"cract":"304","desc":"StmtBal * -1"},
 {"line":"${MMDD},-140,${currentBalanceAmount};304-,AcctBal","mmdd":"${MMDD}","acctamt":[{"acct":"140","amt":"${currentBalanceAmount}"}],"cract":"304","desc":"AcctBal"}
-]\n`
+]
+`
 
