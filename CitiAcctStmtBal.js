@@ -14,4 +14,6 @@ var createJEsJson = `[
 {"line":"${MMDD},-140,${currentBalanceAmount};304-,AcctBal","mmdd":"${MMDD}","acctamt":[{"acct":"140","amt":"${currentBalanceAmount}"}],"cract":"304","desc":"AcctBal"}
 ]
 `
+copy(createJEsJson)
+
 
